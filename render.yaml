@@ -3,6 +3,7 @@ services:
   - type: web
     name: pause
     runtime: node
+    plan: free
     buildCommand: npm install
     startCommand: npm start
     envVars:
