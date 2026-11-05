@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pause family check</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top"><h1>Pause</h1></header>
+  <main>
+    <section class="screen">
+      <p class="step">A family check</p>
+      <h2 id="title">Loading…</h2>
+      <p id="summary"></p>
+      <ul id="reasons"></ul>
+      <h3>What was said</h3>
+      <dl id="answers"></dl>
+      <p class="fine">Call them on a number you already know before you decide.</p>
+      <div class="actions" id="actions"></div>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="family.js"></script>
+</body>
+</html>

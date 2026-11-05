@@ -1,0 +1,16 @@
+{
+  "name": "pause",
+  "version": "0.1.0",
+  "description": "A calm voice that asks one question before money leaves, and a trusted family member who co-signs when something sounds like a scam.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.9" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "test": "node --test",
+    "check": "node --env-file-if-exists=.env scripts/check.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

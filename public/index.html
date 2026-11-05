@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pause</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Pause</h1>
+    <div class="badges" id="badges"></div>
+  </header>
+  <main>
+    <section id="start" class="screen">
+      <h2>Who are you sending money to?</h2>
+      <form id="form">
+        <label>Their name <input id="name" required maxlength="80" autocomplete="off"></label>
+        <label>Their email <input id="email" type="email" required autocomplete="off"></label>
+        <label>Amount in dollars <input id="amount" type="number" min="1" max="10000" step="0.01" required></label>
+        <button class="primary" type="submit">Continue</button>
+      </form>
+      <div class="demo">
+        <p>Try a story</p>
+        <button type="button" id="demo-scam">Grandson in jail</button>
+        <button type="button" id="demo-safe">Monthly prescription</button>
+      </div>
+    </section>
+
+    <section id="talk" class="screen" hidden>
+      <p class="step" id="step"></p>
+      <h2 id="question" tabindex="-1"></h2>
+      <textarea id="answer" rows="3" maxlength="1000" aria-label="Your answer"></textarea>
+      <div class="actions">
+        <button id="mic" type="button">Speak my answer</button>
+        <button id="next" class="primary" type="button">Continue</button>
+      </div>
+    </section>
+
+    <section id="result" class="screen" hidden>
+      <h2 id="r-title" tabindex="-1"></h2>
+      <p id="r-body"></p>
+      <ul id="r-reasons"></ul>
+      <div class="actions" id="r-actions"></div>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
