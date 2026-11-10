@@ -4,6 +4,12 @@
 
 **Tagline:** A payment that asks one question before it leaves.
 
+**Demo:** https://pause-skqa.onrender.com
+
+**Code:** https://github.com/doppleganger11/pause
+
+Note for judges: The free server sleeps when unused, so the first visit can take about a minute to load.
+
 ## Inspiration
 
 The FTC reports about $3 billion in fraud losses among older Americans in 2025, and estimates the real figure could be far higher. Scams work by rushing people past the moment they would stop and think. Payment screens ask how much. Nobody asks why.

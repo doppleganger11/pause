@@ -2,6 +2,10 @@
 
 A payment that asks one question before it leaves.
 
+**Live demo:** https://pause-skqa.onrender.com
+
+The live demo is connected to the PayPal sandbox, so payments use fake money. Try **Grandson in jail**, then open the family link. The free server sleeps when unused, so the first visit can take about a minute to load.
+
 Older Americans reported about $3 billion in fraud losses in 2025, according to the FTC. Pause adds a calm conversation before money moves. If the answers sound like a scam, the money waits for a trusted family member.
 
 ## How it works
